@@ -1,0 +1,26 @@
+{
+  "name": "invoice-generator",
+  "version": "1.0.0",
+  "description": "En este demo generaremos una factura con una app basada en Next js un Framework de React. Asi como mostraremos las ultimas 3 facturas generadas, donde tmbn podremos editar y eliminar estas facturas.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+		"export": "npm run build && next export"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abibflores/invoice-generator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abibflores/invoice-generator/issues"
+  },
+  "homepage": "https://github.com/abibflores/invoice-generator#readme",
+  "dependencies": {
+    "next": "^12.2.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
